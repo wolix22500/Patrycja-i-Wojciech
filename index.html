@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zaproszenie na ślub Patrycja & Wojciech</title>
+
+    <meta property="og:title" content="Zaproszenie na ślub Patrycja & Wojciech - Piątek, 23 Sierpień 2023">
+    <meta property="og:description" content="Zaproszenie na ślub Patrycja & Wojciech - Piątek, 23 Sierpień 2023 Kościół pw. św. Maksymiliana Marii Kolbego,
+    ul. Bukowska 63, 62-062 Strykowo">
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:image" content="https://Patrycja.dae.ng/image/Patrycja-Wojciech-wedding-thumbnail.png">
+    <meta property="og:url" content="http://Patrycja.dae.ng/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/gallery-styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.4/dist/lazyload.min.js"></script>
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
+    <!-- Begin Script for Countdown -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23064379-20');
+    </script>
+    <!-- Begin Script for Countdown -->
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/favicon.png" alt="Flower" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large image-style">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand is-fixed-top">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Czas">
+                  Czas
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Lokalizacja">
+                  Lokalizacja
+                </a>
+              </div>
+              
+              <!-- <div class="navbar-item">
+                <a class="navbar-item" href="#o-Patrycja-Wojciech">
+                  Patrycja i Wojciech
+                </a>
+              </div> -->
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  RSVP
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Zaproszenie na ślub</h1>
+            <h2 class="title">Patrycja & Wojciech</h2>
+            <h4 class="subtitle tempatCzas">
+              
+                Piątek, 23 Sierpień 2024 
+                </br>
+                Parafia pw. św. Michała Archanioła i Wniebowzięcia NMP w Poznaniu,
+                </br>
+                ul. Chojnicka 41, 60-480 Poznań
+            </h4>
+          </div>
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="days_text">Dni</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Godziny</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Minuty</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Sekundy</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var harih = '08/23/2024 15:00:00';
+
+              $('#hitungmundur').countdown({
+                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                offset: +7, // TODO Your Timezone Offset
+                day: 'Dzień',
+                days: 'Dni'
+              }, function () {
+                alert('Done!');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#Termin">Termin</a>
+                  </li>
+                  <li>
+                    <a href="#Ślub">Ślub</a>
+                  </li>
+                  <li>
+                    <a href="#Wesele">Wesele</a>
+                  </li>
+                  <li>
+                    <a href="#o-Patrycja-Wojciech">Ślub Patrycja & Wojciech</a>
+                  </li>
+                  <li>
+                    <a href="#Nocleg">Nocleg</a>
+                  </li>
+                  <li>
+                    <a href="#rsvp">RSVP</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content no-padding-top">
+    <!-- Begin regular-section-->
+     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" style="padding-bottom: 0px;" id="regular-section">
+
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/rings.png" class="divider has-text-centered" alt="rings">
+        </div>
+
+        <span class="space40px"></span>
+
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <div class="nama-lengkap" >
+            Patrycja Napierkowska
+          </div>
+          <div class="ampersand">&</div>
+          <div class="nama-lengkap">
+          Wojciech Rak
+          </div>
+           
+        </div>
+        <span class="space40px"></span>
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/plane.png" class="divider has-text-centered image-plane" alt="plane">
+        </div>
+      </section>
+      <!-- End regular-section-->    
+      
+      <!-- Begin Czas Section -->
+      <section class="section-dark" id="Termin">
+        <div class="container">
+
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Termin</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div class="column is-4 has-vertically-aligned-content">
+            
+              <p class="is-larger has-text-centered">
+                <div class="Czas tanggal-hari has-text-centered">Piątek</div> 
+                <div class="Czas tanggal-angka has-text-centered">23</div>
+                <div class="Czas tanggal-bulan has-text-centered">Sierpień 2024</div>
+              </p>
+            
+            </div>
+            <div class="plane-gif column is-4 has-vertically-aligned-content ">
+              <!-- <img src="image/plane-gif-2.gif" class=" divider has-vertically-align image-plane" alt="~~~"> -->
+
+              <!-- <p class="Czas is-larger has-text-centered">
+                Ślub:
+                <br>
+                style="position: absolute; top: 0px;"
+                <strong>17.00 WIB</strong>
+              </p> -->
+              
+              <!-- <h1 class="Czas is-larger has-text-centered">
+                <br>
+                
+              </h1> -->
+            </div>
+
+            <div class="column is-4 has-vertically-aligned-content">
+              
+
+              <p class="is-larger has-text-centered">
+                <div class="Czas tanggal-bulan has-text-centered">Godzina</div>
+                <div class="Czas tanggal-angka has-text-centered"><strong>15:00</strong></div>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+        <div class="space40px"></div>
+        <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+          <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGgzdW00NG84dXFwMzcwNXYxbGliNGxzaWggZGFlbmdkb2FuZ0Bt&amp;tmsrc=Wojciechdoang%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+            <i class="far fa-calendar-plus"></i>
+            &nbsp;&nbsp;Google Calendar
+          </a>
+        </div>
+      </section>
+      <!-- End Czas Content -->
+
+      <!-- Begin Lokalizacja Section -->
+      <section class="section-light" id="Ślub" >
+        <div class="container">
+          <div data-aos="fade-up" class="localization-header">
+            <h1 class="title has-text-centered section-title">Ślub</h1>
+          </div>
+          <div class="container-localization">
+            <div class="area-left section-map" data-aos="fade-up" data-aos-easing="linear">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3594.939856645864!2d16.614692449505004!3d52.25265027743225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47044b1d56113cf9%3A0x888f183095b1177c!2zS2_Fm2Npw7PFgiDFm3cuIE1ha3N5bWlsaWFuYSBNYXJpaSBLb2xiZWdv!5e0!3m2!1spl!2spl!4v1695583967438!5m2!1spl!2spl" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="area-right regular-section" data-aos="fade-up" data-aos-easing="linear">
+              <div class="content-in-area">
+                <p class="tempat is-larger has-text-centered">
+                  <!-- <strong></strong> -->
+                  <br>
+                  Kościół pw. św. Maksymiliana Marii Kolbego, 
+                  <br>
+                  ul. Bukowska 63, 62-062 Strykowo
+                  <br>
+                </p>
+                <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                  <a href="https://www.google.com/maps/place/Ko%C5%9Bci%C3%B3%C5%82+%C5%9Bw.+Maksymiliana+Marii+Kolbego/@52.2526503,16.6146924,16.44z/data=!4m6!3m5!1s0x47044b1d56113cf9:0x888f183095b1177c!8m2!3d52.253286!4d16.614384!16s%2Fg%2F1ptvtfqnq?hl=pl-PL&entry=ttu" class="button btn-cta" target="_blank" data-aos="zoom-in">
+                    <i class="far fa-directions"></i>
+                    &nbsp;&nbsp;Google Maps
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </section>
+        <section class="section-dark" id="Wesele" >
+        <div class="container">
+          <div data-aos="fade-up" class="localization-header">
+            <h1 class="title has-text-centered section-title">Wesele</h1>
+          </div>
+          <div class="container-localization">
+            <div class="area-left section-map" data-aos="fade-up" data-aos-easing="linear">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9733.993092478448!2d16.7184042!3d52.4157688!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704465547b54c57%3A0x702eddd0df3acaeb!2zUGHFgmFjIEphxZttaW5vd3k!5e0!3m2!1spl!2spl!4v1695588181668!5m2!1spl!2spl" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="area-right regular-section" data-aos="fade-up" data-aos-easing="linear">
+              <div class="content-in-area">
+                <p class="tempat is-larger has-text-centered">
+                  <!-- <strong></strong> -->
+                  <br>
+                  Pałac Jaśminowy 
+                  <br>
+                  Sala Szafranowa
+                  <br>
+                  ul. Zakrzewska 15, 62-080 Batorowo
+                  <br>
+                </p>
+                <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                  <a href="https://www.google.com/maps/place/Pa%C5%82ac+Ja%C5%9Bminowy/@52.4157688,16.7184042,15z/data=!4m6!3m5!1s0x4704465547b54c57:0x702eddd0df3acaeb!8m2!3d52.4157688!4d16.7184042!16s%2Fg%2F11bbwlnxbd?entry=ttu" class="button btn-cta" target="_blank" data-aos="zoom-in">
+                    <i class="far fa-directions"></i>
+                    &nbsp;&nbsp;Google Maps
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Lokalizacja Content -->
+      <!-- Begin o Patrycja and Wojciech -->
+      <section class="section-light regular-section is-fullheight gallery-section" id="o-Patrycja-Wojciech" style="padding-bottom: 30px !important;">
+        <div class="gallery-container">
+          <div class="gallery">
+            <figure class="gallery__item gallery__item--1-v">
+              <img data-src="image/about/1-v.webp" src="image/about/min/1-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--1-h">
+              <img data-src="image/about/1-h.webp" src="image/about/min/1-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--2-h">
+              <img data-src="image/about/2-h.webp" src="image/about/min/2-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--1-v-2">
+              <img data-src="image/about/1-v-2.webp" src="image/about/min/1-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--2-v">
+              <img data-src="image/about/2-v.webp" src="image/about/min/2-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--2-v-2">
+              <img data-src="image/about/2-v-2.webp" src="image/about/min/2-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--3-v">
+              <img data-src="image/about/3-v.webp" src="image/about/min/3-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--3-v-2">
+              <img data-src="image/about/3-v-2.webp" src="image/about/min/3-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--3-h">
+              <img data-src="image/about/3-h.webp" src="image/about/min/3-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--4-v">
+              <img data-src="image/about/4-v.webp" src="image/about/min/4-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--4-v-2">
+              <img data-src="image/about/4-v-2.webp" src="image/about/min/4-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--5v">
+              <img data-src="image/about/5v.webp" src="image/about/min/5v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--4-h">
+              <img data-src="image/about/4-h.webp" src="image/about/min/4-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--5-v-2">
+              <img data-src="image/about/5-v-2.webp" src="image/about/min/5-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--6-v">
+              <img data-src="image/about/6-v.webp" src="image/about/min/6-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--6-v-2">
+              <img data-src="image/about/6-v-2.webp" src="image/about/min/6-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--7-v">
+              <img data-src="image/about/7-v.webp" src="image/about/min/7-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--7-v-2">
+              <img data-src="image/about/7-v-2.webp" src="image/about/min/7-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--8-v">
+              <img data-src="image/about/8-v.webp" src="image/about/min/8-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--5-h">
+              <img data-src="image/about/5-h.webp" src="image/about/min/5-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--6-h">
+              <img data-src="image/about/6-h.webp" src="image/about/min/6-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--8-v-2">
+              <img data-src="image/about/8-v-2.webp" src="image/about/min/8-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--9-v">
+              <img data-src="image/about/9-v.webp" src="image/about/min/9-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--7-h">
+              <img data-src="image/about/7-h.webp" src="image/about/min/7-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--9-v-2">
+              <img data-src="image/about/9-v-2.webp" src="image/about/min/9-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--8-h">
+              <img data-src="image/about/8-h.webp" src="image/about/min/8-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--9-h">
+              <img data-src="image/about/9-h.webp" src="image/about/min/9-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--10-v">
+              <img data-src="image/about/10-v.webp" src="image/about/min/10-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--10-v-2">
+              <img data-src="image/about/10-v-2.webp" src="image/about/min/10-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--10-h">
+              <img data-src="image/about/10-h.webp" src="image/about/min/10-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--11-h">
+              <img data-src="image/about/11-h.webp" src="image/about/min/11-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--12-h">
+              <img data-src="image/about/12-h.webp" src="image/about/min/12-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--11-v">
+              <img data-src="image/about/11-v.webp" src="image/about/min/11-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--11-v-2">
+              <img data-src="image/about/11-v-2.webp" src="image/about/min/11-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--12-v">
+              <img data-src="image/about/12-v.webp" src="image/about/min/12-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--13-h">
+              <img data-src="image/about/13-h.webp" src="image/about/min/13-h.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--12-v-2">
+              <img data-src="image/about/12-v-2.webp" src="image/about/min/12-v-2.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--13-v">
+              <img data-src="image/about/13-v.webp" src="image/about/min/13-v.webp" class="gallery__img lazy" alt="Image 2">
+            </figure>
+            <div data-aos="fade-up" data-aos-easing="linear" style="text-align: center!important;" class="show-more-btn btn-gallery-item">
+              <button id="show-more-btn" style="text-align: center!important;">Show more</button>
+            </div>
+          </div>
+          <!-- <div data-aos="fade-up" data-aos-easing="linear" style="text-align: center!important;" class="show-more-btn btn-gallery-item">
+            <button id="show-more-btn" style="text-align: center!important;">Show more</button>
+          </div> -->
+        </div>
+            <!-- IMAGES -->
+
+
+      </section>
+      <!-- End o Patrycja dan Wojciech -->
+      <section class="section-dark" id="Nocleg" >
+        <div class="container">
+          <div data-aos="fade-up" class="localization-header">
+            <h1 class="title has-text-centered section-title">Nocleg</h1>
+          </div>
+          <div class="container-localization">
+            <div class="area-left section-map" data-aos="fade-up" data-aos-easing="linear">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9739.373076103364!2d16.8611079!3d52.3913915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704451ed262eaa3%3A0x9c31320b87c79ec6!2sGromada%20Hotel%20Pozna%C5%84!5e0!3m2!1spl!2spl!4v1696159878301!5m2!1spl!2spl" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="area-right regular-section" data-aos="fade-up" data-aos-easing="linear">
+              <div class="content-in-area">
+                <p class="tempat is-larger has-text-centered">
+                  <!-- <strong></strong> -->
+                  <br>
+                  Hotel Gromada Poznań, 
+                  <br>
+                  ul. Babimojska 7, 60-161 Poznań
+                  <br>
+                </p>
+                <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                  <a href="https://www.google.com/maps/place/Gromada+Hotel+Pozna%C5%84/@52.3913915,16.8611079,15z/data=!4m9!3m8!1s0x4704451ed262eaa3:0x9c31320b87c79ec6!5m2!4m1!1i2!8m2!3d52.3913915!4d16.8611079!16s%2Fg%2F1tf6kxd8?entry=ttu" class="button btn-cta" target="_blank" data-aos="zoom-in">
+                    <i class="far fa-directions"></i>
+                    &nbsp;&nbsp;Google Maps
+                  </a>
+                </div>
+                <p class="tempat is-larger has-text-centered">
+                  <!-- <strong></strong> -->
+                  <br>
+                  Dla osób z hotelu zapewnimy transport z hotelu do kościoła i na salę, wraz z powrotem.
+                  <br>
+                  Więcej informacji zostanie podane bliżej daty ślubu.
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+            <!-- <div class="space40px"></div>
+            <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <a href="https://www.google.com/maps/place/Ko%C5%9Bci%C3%B3%C5%82+%C5%9Bw.+Maksymiliana+Marii+Kolbego/@52.2526503,16.6146924,16.44z/data=!4m6!3m5!1s0x47044b1d56113cf9:0x888f183095b1177c!8m2!3d52.253286!4d16.614384!16s%2Fg%2F1ptvtfqnq?hl=pl-PL&entry=ttu" class="button btn-cta" target="_blank" data-aos="zoom-in">
+                <i class="far fa-directions"></i>
+                &nbsp;&nbsp;Google Maps
+              </a>
+            </div> -->
+        </div>
+      </section>
+      <section class="section-light" id="Informacje" >
+        <div class="container">
+
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Informacje</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div class="column is-4 has-vertically-aligned-content">
+            
+              <!-- <p class="is-larger has-text-centered">
+                <div class="Czas tanggal-hari has-text-centered">Piątek</div> 
+                <div class="Czas tanggal-angka has-text-centered">23</div>
+                <div class="Czas tanggal-bulan has-text-centered">Sierpień 2024</div>
+              </p> -->
+            </div>
+            <div class=" column is-4 has-vertically-aligned-content ">
+              <p class="is-larger has-text-centered">
+                <div class="Czas tanggal-angka has-text-centered">Karma</div>
+              </p>
+            </div>
+
+            
+            <div class="column is-4 has-vertically-aligned-content">
+              <!-- <p class="is-larger has-text-centered">
+                <div class="Czas tanggal-bulan has-text-centered">Godzina</div>
+                <div class="Czas tanggal-angka has-text-centered"><strong>15:00</strong></div>
+              </p> -->
+            </div>
+          </div>
+          <div class="space40px"></div>
+          <div data-aos="fade-up" data-aos-easing="linear" style="text-align: center!important;">
+            <img src="image/plane.png" class="divider has-text-centered image-plane" style="user-select: none;" alt="~~~">
+          </div>
+        </div>
+        <!-- <div class="space40px"></div> -->
+        <!-- <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+          <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGgzdW00NG84dXFwMzcwNXYxbGliNGxzaWggZGFlbmdkb2FuZ0Bt&amp;tmsrc=Wojciechdoang%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+            <i class="far fa-calendar-plus"></i>
+            &nbsp;&nbsp;Google Calendar
+          </a>
+        </div> -->
+      </section>
+      <!-- Begin RSVP Content -->
+      <section class="section-dark contact" id="rsvp">
+        <div class="container">
+          <div class="columns is-multiline">          
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Kontakt</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                Prosimy o potwierdzenie obecności do: 15.05.2024 r.
+                <br>
+                </p>
+     
+              <a href="tel:+48696563310" class="button btn-whatsapp" data-aos="zoom-in">
+                <i class="fab fa-whatsapp"></i>
+                &nbsp;&nbsp;Patrycja
+              </a>
+              
+              <a href="tel:+48603301350" class="button btn-whatsapp" data-aos="zoom-in">
+                <i class="fab fa-whatsapp"></i>
+                &nbsp;&nbsp; Wojciech
+              </a >
+              <div class="space40px"></div>
+
+              <div class="space40px"></div>
+              <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="image/plane.png" class="divider has-text-centered image-plane" style="user-select: none;" alt="~~~">
+              </div>
+
+              <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear" style="margin: 0;">
+                <br>
+                <a class="facebook":" href="https://www.facebook.com/patrycja.napierkowska.9" target="_blank" style="font-weight: 900;" alt="Facebook Patrycja">
+                  <i class="fab fa-facebook"></i> Patrycja Napierkowska
+                </a>
+                &nbsp
+                <a class="facebook" href="https://www.facebook.com/rak.wojtek/" target="_blank" style="font-weight: 900;" alt="Facebook Wojciech">
+                  <i class="fab fa-facebook"></i> Wojciech Rak
+                </a>
+              </p>
+
+              <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
+                <br>
+                <a class="instagram":" href="https://instagram.com/trish.99" target="_blank" alt="Instagram Patrycja">
+                  <i class="fab fa-instagram"></i> @trish.99
+                </a>
+                &nbsp
+                <a class="instagram" href="https://instagram.com/Wojciech.r4k" target="_blank" alt="Instagram Wojciech">
+                  <i class="fab fa-instagram"></i> @wojciech.r4k
+                </a>
+              </p>
+
+            </div>
+ 
+         </div>
+        </div>
+      </section>
+      <!-- End RSVP Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <script src="js/script.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+
+      lazyLoadInstance.update();
+    </script>
+  </body>
+</html>
