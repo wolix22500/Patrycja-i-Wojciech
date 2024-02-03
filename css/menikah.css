@@ -706,9 +706,9 @@ body.preloader-site {
 
 
 .image-style {
-  background-image: url(../image/MG5248.jpg);
-  background: linear-gradient(rgba(255, 213, 213, 0.51), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url(../image/MG5248.jpg) no-repeat;
-  /* background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url(../image/MG5248.jpg) no-repeat; */
+  background-image: url(../image/MG5248.webp);
+  background: linear-gradient(rgba(255, 213, 213, 0.51), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url(../image/MG5248.webp) no-repeat;
+  /* background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url(../image/MG5248.webp) no-repeat; */
   background-size: cover;
 
   background-attachment: fixed;
